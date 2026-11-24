@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Uhuru Park", "type": "Park" },
+      "geometry": { "type": "Point", "coordinates": [36.814, -1.29] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nairobi National Park",
+        "type": "Protected area"
+      },
+      "geometry": { "type": "Point", "coordinates": [36.858, -1.3733] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kenyatta International Convention Centre",
+        "type": "Landmark"
+      },
+      "geometry": { "type": "Point", "coordinates": [36.8219, -1.2889] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jomo Kenyatta International Airport",
+        "type": "Airport"
+      },
+      "geometry": { "type": "Point", "coordinates": [36.9278, -1.3192] }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  background: #1f5c46;
+  color: #fff;
+  padding: 10px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+nav h1 {
+  font-size: 1.1rem;
+  margin-right: auto;
+}
+
+nav button {
+  background: #fff;
+  color: #1f5c46;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background: #cfe8dc;
+}
+
+/* The map needs a height, otherwise it will not show */
+#map {
+  flex: 1;
+}
+
+/* Responsive: small screens */
+@media (max-width: 600px) {
+  nav h1 {
+    width: 100%;
+  }
+}
